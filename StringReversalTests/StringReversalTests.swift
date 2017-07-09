@@ -21,7 +21,6 @@ class StringReversalTests: XCTestCase {
         super.tearDown()
     }
 
-
     func testNone() {
         let reverser = Reverser(input: "ab")
         let reversedString = reverser.reverse()
@@ -46,7 +45,6 @@ class StringReversalTests: XCTestCase {
         
     }
 
-
     func testThree() {
         let reverser = Reverser(input: "a,b$c")
         let reversedString = reverser.reverse()
@@ -60,5 +58,4 @@ class StringReversalTests: XCTestCase {
 
         XCTAssertEqual(reversedString, "c$b$a")
     }
-
 }
