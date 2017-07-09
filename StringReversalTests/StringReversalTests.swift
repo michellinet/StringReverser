@@ -20,18 +20,7 @@ class StringReversalTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+
 
     func testNone() {
         let reverser = Reverser(input: "ab")
@@ -49,20 +38,27 @@ class StringReversalTests: XCTestCase {
 
     }
 
-/*    func testTwo() {
+    func testTwo() {
         let reverser = Reverser(input: "a$b@c")
         let reversedString = reverser.reverse()
 
         XCTAssertEqual(reversedString, "c$b@a")
         
     }
-*/
 
-/*    func testOne() {
-        let reverser = Reverser(string: "a,b$c")
+
+    func testThree() {
+        let reverser = Reverser(input: "a,b$c")
         let reversedString = reverser.reverse()
 
         XCTAssertEqual(reversedString, "c,b$a")
     }
-*/
+
+    func testFour() {
+        let reverser = Reverser(input: "a$b$c")
+        let reversedString = reverser.reverse()
+
+        XCTAssertEqual(reversedString, "c$b$a")
+    }
+
 }
