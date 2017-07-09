@@ -15,6 +15,7 @@
 		01FAB2E51F1032F400CABD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FAB2E31F1032F400CABD19 /* LaunchScreen.storyboard */; };
 		01FAB2F01F1032F400CABD19 /* StringReversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAB2EF1F1032F400CABD19 /* StringReversalTests.swift */; };
 		01FAB2FB1F1032F400CABD19 /* StringReversalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAB2FA1F1032F400CABD19 /* StringReversalUITests.swift */; };
+		01FAB3091F10331500CABD19 /* StringReverser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAB3081F10331500CABD19 /* StringReverser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01FAB2F61F1032F400CABD19 /* StringReversalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringReversalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FAB2FA1F1032F400CABD19 /* StringReversalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringReversalUITests.swift; sourceTree = "<group>"; };
 		01FAB2FC1F1032F400CABD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FAB3081F10331500CABD19 /* StringReverser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringReverser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				01FAB2D71F1032F400CABD19 /* AppDelegate.swift */,
 				01FAB2D91F1032F400CABD19 /* ViewController.swift */,
+				01FAB3081F10331500CABD19 /* StringReverser.swift */,
 				01FAB2DB1F1032F400CABD19 /* Main.storyboard */,
 				01FAB2E11F1032F400CABD19 /* Assets.xcassets */,
 				01FAB2E31F1032F400CABD19 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FAB3091F10331500CABD19 /* StringReverser.swift in Sources */,
 				01FAB2DA1F1032F400CABD19 /* ViewController.swift in Sources */,
 				01FAB2D81F1032F400CABD19 /* AppDelegate.swift in Sources */,
 				01FAB2E01F1032F400CABD19 /* StringReversal.xcdatamodeld in Sources */,

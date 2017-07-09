@@ -32,5 +32,37 @@ class StringReversalTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
+    func testNone() {
+        let reverser = Reverser(input: "ab")
+        let reversedString = reverser.reverse()
+
+        XCTAssertEqual(reversedString, "ba")
+
+    }
+
+    func testOne() {
+        let reverser = Reverser(input: "a$b")
+        let reversedString = reverser.reverse()
+
+        XCTAssertEqual(reversedString, "b$a")
+
+    }
+
+/*    func testTwo() {
+        let reverser = Reverser(input: "a$b@c")
+        let reversedString = reverser.reverse()
+
+        XCTAssertEqual(reversedString, "c$b@a")
+        
+    }
+*/
+
+/*    func testOne() {
+        let reverser = Reverser(string: "a,b$c")
+        let reversedString = reverser.reverse()
+
+        XCTAssertEqual(reversedString, "c,b$a")
+    }
+*/
 }
